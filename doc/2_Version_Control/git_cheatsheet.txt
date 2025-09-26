@@ -13,3 +13,11 @@ git merge Description: Combines changes from another branch into the current bra
 git rebase Description: Reapplies commits on top of another branch or commit. Notes: Changes commit history—used for a cleaner project history.
 
 git fetch Description: Downloads objects and refs from a remote repository. Notes: Unlike pull, it doesn’t merge or rebase—just updates remote-tracking branches.
+
+git add Description: Stages changes (new files, modifications, deletions) to be included in the next commit. Notes: Does not commit—just prepares changes for the next commit.
+
+git status Description: Displays the state of the working directory and staging area. Notes: Great for checking what will be committed and what isn’t yet staged.
+
+git log Description: Shows the commit history of the repository. Notes: Can combine arguments (e.g., git log --oneline --graph).
+
+Extra Note on git push -u <remote> <branch> Notes: -u (or --set-upstream) sets the upstream tracking branch, meaning future git push or git pull commands can be run without specifying the remote/branch.
