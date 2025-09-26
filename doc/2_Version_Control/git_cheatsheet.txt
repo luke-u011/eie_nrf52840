@@ -1,0 +1,15 @@
+git commit Description: Records staged changes in the repository history. Notes: With no arguments, it opens the configured text editor for the commit message. With arguments, you can streamline or alter the commit process.
+
+git branch Description: Lists, creates, or deletes branches. Notes: The function changes based on arguments—without arguments it lists, with arguments it creates/deletes.
+
+git checkout Description: Switches branches or restores files. Notes: Behavior changes depending on argument type—branch name vs. file path.
+
+git pull Description: Fetches from a remote repository and merges into the current branch. Notes: Essentially shorthand for git fetch + git merge (or rebase).
+
+git push Description: Sends local commits to a remote repository. Notes: The arguments determine which remote and branch are updated.
+
+git merge Description: Combines changes from another branch into the current branch. Notes: Always requires a target branch to merge from.
+
+git rebase Description: Reapplies commits on top of another branch or commit. Notes: Changes commit history—used for a cleaner project history.
+
+git fetch Description: Downloads objects and refs from a remote repository. Notes: Unlike pull, it doesn’t merge or rebase—just updates remote-tracking branches.
